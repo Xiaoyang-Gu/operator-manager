@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com.operator-manager.domain/v1
+kind: Subscription
+metadata:
+  name: subscription-sample
+spec:
+  # Add fields here
+  startingCSV: api-operator.1.2.0
+  option: create
+  foo: bar
+status:
+  opstatus: unknown

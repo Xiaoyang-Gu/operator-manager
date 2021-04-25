@@ -1,0 +1,13 @@
+domain: operator-manager.domain
+repo: github.com/buptGophers/operator-manager
+resources:
+- group: operators.coreos.com
+  kind: Subscription
+  version: v1
+- group: operators.coreos.com
+  kind: BluePrint
+  version: v1
+- group: operators.coreos.com
+  kind: ClusterServiceVersion
+  version: v1alpha1
+version: "2"
